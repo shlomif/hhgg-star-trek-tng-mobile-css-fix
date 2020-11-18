@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html tabindex="0" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta charset="UTF-8"><style>
+.page {
+  display: grid;
+  grid-template-columns: min-content auto;
+  grid-template-rows:    min-content auto;
+  grid-template-areas:  "header header" "menu main";
+}
+.header { grid-area: header; background: #ffa; }
+.menu   { grid-area: menu;   background: #aff; }
+.main   { grid-area: main;
+
+	min-width: 0;   /* this is the trick! */
+
+}
+.wrapper { background: #f88; text-align: center; overflow: auto; }
+.startrek { display: inline-block; background: #faa; text-align: left; }
+</style><script>try {
+                        Object.defineProperty(screen, "availTop", { value: 0 });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(screen, "availLeft", { value: 0 });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(screen, "availWidth", { value: 1920 });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(screen, "availHeight", { value: 1080 });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(screen, "colorDepth", { value: 24 });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(screen, "pixelDepth", { value: 24 });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(navigator, "hardwareConcurrency", { value: 8 });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(navigator, "appVersion", { value: "5.0 (X11)" });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(navigator, "doNotTrack", { value: "unspecified" });
+                    } catch (e) {}
+                    
+            try {
+                window.screenY = 157
+            } catch (e) { }
+        
+            try {
+                window.screenTop = 157
+            } catch (e) { }
+        
+            try {
+                window.top.window.outerHeight = 855
+            } catch (e) { }
+        
+            try {
+                window.screenX = 434
+            } catch (e) { }
+        
+            try {
+                window.screenLeft = 434
+            } catch (e) { }
+        
+            try {
+                window.top.window.outerWidth = 1474
+            } catch (e) { }
+        </script></head><body class="self_link">
+
+<div class="page">
+	<div class="header">Header</div>
+	<div class="menu">Menu</div>
+	<div class="main">
+		<div class="wrapper">
+<pre class="startrek">             T h e    H i t c h h i k e r ' s    G u i d e
+
+                                   to
+
+
+   *******  ******** ********  *******
+  *******  ******** ********  *******
+   **                    **       **
+    **       **    **   **  *******
+     **     **    **   **  ******
+      **   **    **   **  **   **
+ *******  **    *******  **    **   ******** *******   ********  **  ****
+*******  **    *******  **     **  ******** *******   ********  ********
+                                                **
+                                    **    *******   ********  ****
+                                   **    ******    ********  **  **
+                                  **    **   **   **        **    **
+                                 **    **    **  ********  **      **
+                                **    **     ** ********  **        **
+
+
+                T h e    N e x t    G e n e r a t i o n
+
+                           [ Don't  Panic! ]
+</pre>
+		</div><!-- /wrapper -->
+		<ul>
+			<li><a href="https://weblog.west-wind.com/posts/2016/feb/15/flexbox-containers-pre-tags-and-managing-overflow">https://weblog.west-wind.com/posts/2016/feb/15/flexbox-containers-pre-tags-and-managing-overflow</a></li>
+			<li>I removed the leading space char on each line in the pre to get rid of the extra padding</li>
+			<li>Load this page <a href="https://harald.ist.org/paste/overflow_in_grids.html">in my source viewer</a></li>
+		</ul>
+	</div><!-- /main -->
+</div>
+
+</body></html>
